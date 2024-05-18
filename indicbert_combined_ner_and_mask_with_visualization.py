@@ -10,14 +10,14 @@ Original file is located at
 from google.colab import drive
 drive.mount('/content/drive')
 
-!pip3 install transformers
-!pip3 install datasets
-!pip3 install sentencepiece
-!pip3 install seqeval
+# !pip3 install transformers
+# !pip3 install datasets
+# !pip3 install sentencepiece
+# !pip3 install seqeval
 
-!pip uninstall transformers[torch]
+# !pip uninstall transformers[torch]
 
-!pip install transformers[torch] -U
+# !pip install transformers[torch] -U
 
 import json
 import os
